@@ -152,9 +152,7 @@ def update_network_listbox(networks):
         print(f"Updating listbox with network: {network}")  # Debug statement
         network_listbox.insert(tk.END, network)
 
-# Function to open the login page in the browser
-def open_login_page():
-    webbrowser.open('http://localhost/auth/login.html')
+
 
 # Function to check Python version
 def check_python_version():
